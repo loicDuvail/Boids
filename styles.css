@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: rgb(20, 51, 117);
+}
+
+#settings {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    background-color: rgba(235, 235, 235, 0.859);
+    z-index: 2;
+}
+
+#settings-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 3;
+}
+
+svg {
+    margin-top: 3px;
+}
+
+input {
+    cursor: pointer;
+    outline: none;
+}
+
+#settings-svg {
+    display: none;
+}
+
+hr {
+    width: 95%;
+    border: none;
+    border-top: 1px solid grey;
+    color: rgba(234, 255, 114, 0.353);
+}
+
+#trail-visibility-setting-container,
+#boid-visibility-setting-container {
+    display: flex;
+}
+
+.toggle-info {
+    position: absolute;
+    margin: 0;
+    right: 15px;
+}
+
+#settings-key-shortcut-info {
+    position: relative;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    width: 100%;
+    text-align: center;
+}
+
+.checkbox {
+    margin-left: 5px;
+}
